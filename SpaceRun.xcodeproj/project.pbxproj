@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300286821FE5A5BA008CB07A /* shield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 300286801FE5A5BA008CB07A /* shield.sks */; };
+		300286831FE5A5BA008CB07A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300286811FE5A5BA008CB07A /* Assets.xcassets */; };
 		305A0EC81FC5ED0400EB1A36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A0EC71FC5ED0400EB1A36 /* AppDelegate.swift */; };
 		305A0ECA1FC5ED0400EB1A36 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 305A0EC91FC5ED0400EB1A36 /* GameScene.sks */; };
 		305A0ECC1FC5ED0400EB1A36 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 305A0ECB1FC5ED0400EB1A36 /* Actions.sks */; };
 		305A0ECE1FC5ED0400EB1A36 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A0ECD1FC5ED0400EB1A36 /* GameScene.swift */; };
 		305A0ED01FC5ED0400EB1A36 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A0ECF1FC5ED0400EB1A36 /* GameViewController.swift */; };
 		305A0ED31FC5ED0400EB1A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305A0ED11FC5ED0400EB1A36 /* Main.storyboard */; };
-		305A0ED51FC5ED0400EB1A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305A0ED41FC5ED0400EB1A36 /* Assets.xcassets */; };
 		305A0ED81FC5ED0400EB1A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305A0ED61FC5ED0400EB1A36 /* LaunchScreen.storyboard */; };
+		30871F431FCC750500FEB486 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30871F401FCC750500FEB486 /* explosion.wav */; };
+		30871F441FCC750500FEB486 /* darkExplosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30871F411FCC750500FEB486 /* darkExplosion.wav */; };
+		30871F451FCC750500FEB486 /* laserShot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30871F421FCC750500FEB486 /* laserShot.wav */; };
+		30A569EA1FD8536300B682B1 /* StarField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A569E91FD8536300B682B1 /* StarField.swift */; };
+		30DC28371FDEE7F000C8128F /* thrust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30DC28361FDEE7EF00C8128F /* thrust.sks */; };
+		30DC28391FDEEA8C00C8128F /* SKEmitterNodeExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC28381FDEEA8C00C8128F /* SKEmitterNodeExtention.swift */; };
+		30DC283B1FDEF59200C8128F /* obstacleExplode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30DC283A1FDEF59200C8128F /* obstacleExplode.sks */; };
+		30DC283D1FDEF62F00C8128F /* shipExplode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30DC283C1FDEF62F00C8128F /* shipExplode.sks */; };
+		30DC283F1FDEFAE500C8128F /* HUDNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC283E1FDEFAE500C8128F /* HUDNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		300286801FE5A5BA008CB07A /* shield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = shield.sks; sourceTree = "<group>"; };
+		300286811FE5A5BA008CB07A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		305A0EC41FC5ED0400EB1A36 /* SpaceRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		305A0EC71FC5ED0400EB1A36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		305A0EC91FC5ED0400EB1A36 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -25,9 +37,17 @@
 		305A0ECD1FC5ED0400EB1A36 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		305A0ECF1FC5ED0400EB1A36 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		305A0ED21FC5ED0400EB1A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		305A0ED41FC5ED0400EB1A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		305A0ED71FC5ED0400EB1A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		305A0ED91FC5ED0400EB1A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30871F401FCC750500FEB486 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		30871F411FCC750500FEB486 /* darkExplosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = darkExplosion.wav; sourceTree = "<group>"; };
+		30871F421FCC750500FEB486 /* laserShot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = laserShot.wav; sourceTree = "<group>"; };
+		30A569E91FD8536300B682B1 /* StarField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarField.swift; sourceTree = "<group>"; };
+		30DC28361FDEE7EF00C8128F /* thrust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = thrust.sks; sourceTree = "<group>"; };
+		30DC28381FDEEA8C00C8128F /* SKEmitterNodeExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKEmitterNodeExtention.swift; sourceTree = "<group>"; };
+		30DC283A1FDEF59200C8128F /* obstacleExplode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = obstacleExplode.sks; sourceTree = "<group>"; };
+		30DC283C1FDEF62F00C8128F /* shipExplode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = shipExplode.sks; sourceTree = "<group>"; };
+		30DC283E1FDEFAE500C8128F /* HUDNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +80,35 @@
 		305A0EC61FC5ED0400EB1A36 /* SpaceRun */ = {
 			isa = PBXGroup;
 			children = (
+				30871F391FCC742300FEB486 /* soundAssets */,
 				305A0EC71FC5ED0400EB1A36 /* AppDelegate.swift */,
 				305A0EC91FC5ED0400EB1A36 /* GameScene.sks */,
 				305A0ECB1FC5ED0400EB1A36 /* Actions.sks */,
 				305A0ECD1FC5ED0400EB1A36 /* GameScene.swift */,
 				305A0ECF1FC5ED0400EB1A36 /* GameViewController.swift */,
 				305A0ED11FC5ED0400EB1A36 /* Main.storyboard */,
-				305A0ED41FC5ED0400EB1A36 /* Assets.xcassets */,
 				305A0ED61FC5ED0400EB1A36 /* LaunchScreen.storyboard */,
 				305A0ED91FC5ED0400EB1A36 /* Info.plist */,
+				30A569E91FD8536300B682B1 /* StarField.swift */,
+				30DC28361FDEE7EF00C8128F /* thrust.sks */,
+				30DC28381FDEEA8C00C8128F /* SKEmitterNodeExtention.swift */,
+				30DC283A1FDEF59200C8128F /* obstacleExplode.sks */,
+				30DC283C1FDEF62F00C8128F /* shipExplode.sks */,
+				30DC283E1FDEFAE500C8128F /* HUDNode.swift */,
+				300286801FE5A5BA008CB07A /* shield.sks */,
+				300286811FE5A5BA008CB07A /* Assets.xcassets */,
 			);
 			path = SpaceRun;
+			sourceTree = "<group>";
+		};
+		30871F391FCC742300FEB486 /* soundAssets */ = {
+			isa = PBXGroup;
+			children = (
+				30871F411FCC750500FEB486 /* darkExplosion.wav */,
+				30871F401FCC750500FEB486 /* explosion.wav */,
+				30871F421FCC750500FEB486 /* laserShot.wav */,
+			);
+			path = soundAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,11 +170,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30871F431FCC750500FEB486 /* explosion.wav in Resources */,
+				30DC283D1FDEF62F00C8128F /* shipExplode.sks in Resources */,
+				300286821FE5A5BA008CB07A /* shield.sks in Resources */,
 				305A0ED31FC5ED0400EB1A36 /* Main.storyboard in Resources */,
 				305A0ECA1FC5ED0400EB1A36 /* GameScene.sks in Resources */,
-				305A0ED51FC5ED0400EB1A36 /* Assets.xcassets in Resources */,
+				30DC283B1FDEF59200C8128F /* obstacleExplode.sks in Resources */,
+				30871F441FCC750500FEB486 /* darkExplosion.wav in Resources */,
 				305A0ED81FC5ED0400EB1A36 /* LaunchScreen.storyboard in Resources */,
+				30871F451FCC750500FEB486 /* laserShot.wav in Resources */,
 				305A0ECC1FC5ED0400EB1A36 /* Actions.sks in Resources */,
+				300286831FE5A5BA008CB07A /* Assets.xcassets in Resources */,
+				30DC28371FDEE7F000C8128F /* thrust.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +192,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30DC28391FDEEA8C00C8128F /* SKEmitterNodeExtention.swift in Sources */,
+				30DC283F1FDEFAE500C8128F /* HUDNode.swift in Sources */,
+				30A569EA1FD8536300B682B1 /* StarField.swift in Sources */,
 				305A0ECE1FC5ED0400EB1A36 /* GameScene.swift in Sources */,
 				305A0ED01FC5ED0400EB1A36 /* GameViewController.swift in Sources */,
 				305A0EC81FC5ED0400EB1A36 /* AppDelegate.swift in Sources */,
